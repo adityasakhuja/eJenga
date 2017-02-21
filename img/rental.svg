@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:#75A897;}
+	.st2{fill:#D5872A;}
+	.st3{fill:#5082A9;}
+	.st4{fill:#E09C6F;}
+	.st5{fill:#E4C856;}
+	.st6{fill:#87B7DD;}
+	.st7{fill:#B9BDC2;}
+	.st8{fill:#57646E;}
+	.st9{fill:#CA6A46;}
+	.st10{fill:#1F3049;}
+	.st11{fill:#298063;}
+	.st12{fill:#C93A3A;}
+	.st13{fill:#DA8B80;}
+	.st14{fill:#C9402E;}
+	.st15{fill:#E29E6F;}
+	.st16{fill:#A32929;}
+	.st17{fill:#F5F5F5;}
+	.st18{fill:#C9553E;}
+	.st19{fill:#E09E9A;}
+	.st20{fill:#FFFFFF;}
+	.st21{fill:#E6A585;}
+	.st22{fill:#4E3333;}
+	.st23{fill:#2B5F87;}
+	.st24{opacity:0.31;fill:#FFFFFF;}
+	.st25{fill:#E6CA56;}
+	.st26{fill:#4D917B;}
+	.st27{fill:#B8B8B8;}
+	.st28{fill:#8998A0;}
+	.st29{fill:#394755;}
+	.st30{fill:#F2D1B4;}
+	.st31{fill:#ECE4C7;}
+	.st32{fill:#F1CB58;}
+	.st33{fill:#E1E1E1;}
+</style>
+<g id="GUIDELINES" class="st0">
+</g>
+<g id="Layer_9">
+</g>
+<g id="ICON">
+	<ellipse class="st6" cx="256.4" cy="254.5" rx="256" ry="256"/>
+</g>
+<g id="Layer_8">
+	<g>
+		<rect x="269.5" y="209.8" class="st9" width="121.1" height="142"/>
+		<rect x="280" y="227.7" class="st4" width="110.6" height="124.2"/>
+		<polygon class="st9" points="192.2,114.1 110.6,209.8 110.6,351.9 273.8,351.9 273.8,209.8 		"/>
+		<g>
+			<polygon class="st14" points="408.8,215.1 319.5,104.7 192.3,104.7 281.6,215.1 			"/>
+			<g>
+				<path class="st16" d="M99.6,215.1h15.5l77.1-90.7l77.1,90.7h17l-94.1-110.6L98,215.1C98.5,215,99.1,215.1,99.6,215.1z"/>
+			</g>
+		</g>
+		<g>
+			<path class="st20" d="M185.5,332.4v-19.7c-11.4-0.2-23-3.7-29.9-8.7l4.7-13.2c6.9,4.5,17.1,8.5,28.1,8.5c14,0,23.4-8.1,23.4-19.3
+				c0-10.8-7.7-17.5-22.2-23.4c-20.1-7.9-32.5-17.1-32.5-34.2c0-16.3,11.6-28.7,29.5-31.7v-19.7h12.4v19.1
+				c11.6,0.4,19.7,3.5,25.6,6.9l-4.9,13c-4.1-2.4-12.2-6.9-24.8-6.9c-15.1,0-20.8,9-20.8,17.1c0,10,7.3,15.1,24.4,22.4
+				C218.7,251,229,261,229,278.5c0,15.7-10.8,30.3-31.1,33.4v20.4H185.5z"/>
+		</g>
+		<g>
+			<rect x="326.4" y="306.7" class="st10" width="32" height="45.3"/>
+			<g>
+				<g>
+					<rect x="322.1" y="240.2" class="st23" width="40.7" height="40.7"/>
+					<rect x="339.9" y="235.7" class="st4" width="5.1" height="49.6"/>
+					<rect x="317.6" y="258" class="st4" width="49.6" height="5.1"/>
+				</g>
+				<rect x="318.3" y="281.9" class="st16" width="48.2" height="6.9"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

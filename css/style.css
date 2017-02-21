@@ -66,7 +66,7 @@ h1 {
 }
 
 h2{
-	font-size:34px;
+	font-size:48px;
 	color:#2e2e2e;
 	font-family: 'Lato', sans-serif;
 	/*font-weight:700;*/
@@ -77,24 +77,26 @@ h2{
 }
 h3{
 	font-family: 'Lato', sans-serif;
-	color:#2e2e2e;
+	color:#7cc576;
 	font-size:24px;
 	margin:0 0 5px 0;
 	/*text-transform:uppercase;*/
 	/*font-weight:400;*/
 }
 h6{
-	font-size:16px;
-	color:#888888;
-	font-family: 'Lato', sans-serif;
+	font-size:26px;
+	color:#ce4747;
+	font-family: 'Catamaran', sans-serif;
 	font-weight:400;
-	text-align:center;
-	margin:0 0 60px 0;
+	/*text-align:center;*/
+	margin:30px 0 30px 0;
 }
 p{
-	font-family: 'Lato', sans-serif;
-	line-height:24px;
+	font-family: 'Helvetica', sans-serif;
+	line-height:30px;
 	margin:0;
+	color: #2e2e2e;
+	text-align: justify;
 }
 
 /* Header Styles
@@ -238,9 +240,28 @@ color: #fff;
 }
 */
 .main-section{
-	padding:90px 0 110px;
+	padding:40px 0 110px;
 }
 
+/* Invest
+---------------------------------*/
+.invest-img {
+	width: 15em;
+	padding-bottom: 20px;
+}
+
+#invest h6 {
+	text-align: center;
+}
+
+
+/* Benefit
+---------------------------------*/
+
+.benefit-img {
+	width: 10em;
+	padding-bottom: 20px;
+}
 
 /* Banner 
 ---------------------------------*/
@@ -278,7 +299,7 @@ color: #fff;
 
 #banner ul li {
 	font-family: 'Codystar', sans-serif;
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: 5px;
 }
 
@@ -293,6 +314,19 @@ color: #fff;
 #banner ul li:nth-child(3) {
 	color: #7cc576;
 }*/
+
+
+/* About
+---------------------------------*/
+#about ul li {
+	font-family: 'Helvetica', sans-serif;
+	line-height:36px;
+	margin:0;
+	color: #2e2e2e;
+	list-style-type: circle;
+}
+
+
 
 /* Benefits
 ---------------------------------*/
@@ -333,6 +367,7 @@ color: #fff;
 	padding:0 0 0 0;
 	margin-bottom:25px;
 	font-size:14px;
+	text-align: center;
 }
 .featured-box h3{
 	margin-bottom:5px;
