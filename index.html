@@ -33,6 +33,7 @@
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="contactform/contactform.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 </head>
 
@@ -194,11 +195,33 @@
                         <p>Receieve capital gains in the form of property appreciation and growth</p>
                 </div>
             </div>
-            <figure class="col-lg-8 text-right wow fadeInUp delay-02s">
+            <div class="col-lg-8 wow fadeInUp delay-05s">
+                <canvas id="myChart"></canvas>
+                <script>
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                      type: 'line',
+                      data: {
+                        labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016'],
+                        datasets: [{
+                          label: 'NSE',
+                          data: [0,1,2,3,4,5,6,7,8,9,10,10],
+                          backgroundColor: "#7cc576"
+                        }, {
+                          label: 'Real Estate',
+                          data: [2,3,4,5,6,7,8,9,10,11,12,13],
+                          backgroundColor: "#ce4747"
+                        }]
+                      }
+                    });
+                </script>
+            </div>
+
+            <!-- <figure class="col-lg-8 text-right wow fadeInUp delay-02s">
                 <img src="img/placeholder-graph.png" alt="">
-            </figure>
+            </figure> -->
         
-        </div>
+        
     </div>
 </section>
 <!-- Investor Benefits End -->
