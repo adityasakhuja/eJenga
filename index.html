@@ -34,37 +34,17 @@
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="contactform/contactform.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="text/javascript" src="js/subscribe.js"></script>
 
 </head>
 
 <body>
 
-<!-- Full Page Banner Start -->
-<!--  
-<header class="header" id="header">
-<div class="dark-wrapper">	
-    <div class="container">
-    	<figure class="logo animated fadeInDown delay-07s">
-        	<a href="#"><img src="img/logo.png" alt=""></a>	
-        </figure>	
-        <h1 class="animated fadeInDown delay-07s">Kenya's First Real Estate Investment Platform</h1>
-        <ul class="we-create animated fadeInUp delay-1s">
-        	<li>Modern</li>
-            <li>Efficient</li>
-            <li>Competitive</li>
-        </ul>
-            <a class="link animated fadeInUp delay-1s" href="#">Join Us</a>
-    </div>
-</div>
-</header>
--->
-<!-- Full Page Banner End -->
-
 <!-- Navbar Start -->
 <nav class="main-nav-outer" id="test">
 	<div class="container">
         <ul class="main-nav">
-            <li class="fl-lt"><a href="#"><img class="slogo" src="img/small-logo.png" alt="eJenga"></a></li>
+            <li><a href="#"><img class="slogo" src="img/logo-hor-w-nb.png" alt="eJenga"></a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#invest">How It Works</a></li>
             <li><a href="#benefit">Benefits</a></li>
@@ -89,7 +69,12 @@
             <li>Efficient</li>
             <li>Competitive</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s" href="#">Join Us</a>
+        <!-- <div class="form-group">
+            <input type="subscribe" class="form-control input-text" name="subscirbe" id="subscribe" placeholder="Email Address" data-rule="email" data-msg="Please enter a valid email" />
+            <div class="validation"></div>
+        </div> -->
+        <a class="link animated fadeInUp delay-1s" href="#">Join Us</a>
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"31bd2bc8dcc49dae0d4b41951","lid":"010d4d7f98"}) })</script>
 	</div>
 </div>
 </section>
@@ -112,25 +97,29 @@
 <!-- About Start -->
 <section class="main-section" id="about">
     <div class="container">
-        <h2 class="animated fadeInDown delay-05s">What is eJenga</h2>
-        
+        <h2 class="animated fadeInDown delay-05s">Property Investment made easy with eJenga</h2>
+        <div class="animated fadeInUp delay-07s text-center">
+            <img src="img/eJenga-way.png">
+        </div>
         <div class="row">
-            <div class="col-lg-7 wow fadeInLeft">
-                <h6 class="animated fadeInUp delay-07s">Kenya's first crowdfunded real estate investment platform</h6>
-                <p class="animated fadeInUp delay-07s">Finally, Property investment is made easy with e-Jenga. Investors can now own part of a property without huge financial and timely commitments. Undertake all transactions online, including digital legal documentation, funds transfer &amp; ownership recordation. Manage and monitor your investments through an online portal; receive automated rental income payments. </p>                
-                <br>
-                <p class="animated fadeInUp delay-07s">In the future, e-Jenga hopes to act as an intermediary to facilitate funding in both directions between the investors and the property developers. e-Jenga aims to revolutionise the traditional way of project financing in Kenya where developers will be able to Showcase their properties on e-Jenga to access a diverse investor base whilst growing their company’s social network.</p>
+            <div class="col-lg-6 wow fadeInLeft">
+                <h6 class="animated fadeInUp delay-07s">The eJenga Way</h6>
+                <ul class="animated fadeInUp delay-07s">
+                    <li>Investors can now own part of a property without huge financial and timely commitments</li>
+                    <li>Undertake all transactions online, including digital legal documentation, funds transfer &amp; ownership recordation</li>
+                    <li>Manage and monitor your investments through an online portal; receive automated rental income payments</li>
+                </ul>
             </div>
-             <div class="col-lg-5 wow fadeInRight">
-                <h6 class="animated fadeInUp delay-09s">Why Kenyan Real Estate?</h6>
+             <div class="col-lg-6 wow fadeInRight">
+                <h6 class="animated fadeInUp delay-09s">The eJenga Vision</h6>
             <ul class="animated fadeInUp delay-09s">
-                <li>The economic outlook in Kenya remains positive</li>
-                <li>Stabilisation of the Kenyan Shilling</li>
-                <li>New office absorption levels increasing</li>
-                <li>Rising residential mortgage market</li>
-                <li>Increasing demand for Industrial Space</li>
-                <li>Infrastructural developments contributing to increased demand in the right locations</li>
-                <li>Opportunity for high capital gains in niche markets</li>
+                <li>
+                    e-Jenga hopes to act as an intermediary to facilitate funding in both directions between the investors and the property developers
+                </li>
+                <li>
+                    e-Jenga aims to revolutionise the traditional way of project financing in Kenya where developers will be able to showcase their properties on e-Jenga to access a diverse investor base whilst growing their company’s social network
+                </li>
+
             </ul>
             </div>
         </div>
@@ -146,29 +135,32 @@
         <div class="row">
             <div class="col-lg-4 featured-work">
                 <div class="featured-box">
-                        <img class="invest-img" src="img/invest2.svg">
+                        <img class="invest-img" src="img/invest.png">
                         <h3>Investing in a Property</h3>
                         <br>
-                        <p>Investors can view our properties online and filter according to their preferred investment theme  depending on whether the investor is growth or income focused. They are hand-picked by Kenya’s top Real Estate Professionals. We take care of the tedious parts; like solicitors and mortgage costs through a one-time fee.</p>
+                        <p>Invest in properties online and filter according to your preferred investment theme. They are hand-picked by Kenya’s top Real Estate Professionals. We take care of the tedious parts; like solicitors and mortgage costs through a one-time fee</p>
                 </div>
                 </div>
                 <div class="col-lg-4 featured-work">
                 <div class="featured-box">
-                        <img class="invest-img" src="img/rent.svg">
-                        <h3>Earn Monthly Rental Income</h3>
+                        <img class="invest-img" src="img/earn.png">
+                        <h3>Earn Quarterly Rental Income<sup>*</sup></h3>
                         <br>
-                        <p>Each month, you will receive rental income weighted by your proportion of the property that you own. A small percentage of the rent is used for letting, advertising &amp; maintaining the property. The investor portal can you be used to monitor your investment with valuations occurring at each quarter.</p>
+                        <p>Each quarterly income weighted by your proportion of the property that you own. A percentage (+ VAT) of the rent is used for letting, advertising &amp; maintaining the property. The investor portal can be used to monitor your investment with valuations occurring at each quarter</p>
                 </div>
                 </div>
                 <div class="col-lg-4 featured-work">
                 <div class="featured-box">
-                        <img class="invest-img" src="img/sell.svg">
-                        <h3>Sell your Investment</h3>
+                        <img class="invest-img" src="img/sell.png">
+                        <h3>Sell your Investment<sup>*</sup></h3>
                         <br>
-                        <p>Offer your investments to other investors at your chosen price through our online ‘re-sale’ marketplace. Flexibility is offered on the amount of your holdings you wish to sell. Alternatively, investors are given the opportunity to sell their holdings at market price every 3 years at no cost.</p>
+                        <p>Offer your investments to other investors at your chosen price through our online ‘re-sale’ marketplace<sup>**</sup>. Flexibility is offered on the amount of your holdings you wish to sell. Alternatively, investors are given the opportunity to sell their holdings at market price every 3 years at no cost</p>
                 </div>
                 </div>
         </div>
+        <sup>*</sup>Your investment value can go up or down. Historical performance is not conclusive of future results
+        <br />
+        <sup>**</sup>Subject to buy/sell market liquidity
     </div>
 </section>
 <!-- How To Invest End -->
@@ -179,20 +171,12 @@
         <h2>Investor Benefits</h2>
         <h6></h6>
         <div class="row">
-            <div class="col-lg-4 wow fadeInLeft delay-05s">
+            <div class="col-lg-2 wow fadeInLeft delay-05s">
                 <div class="featured-box">
-                        <img class="benefit-img" src="img/rental.svg">
+                        <img class="benefit-img" src="img/earn-w.png">
                         <h3>Rental Income</h3>
                         <br>
-                        <p>Earn monthly rental income on your properties at 4.70%</p>
-                </div>
-            <!-- </div>
-            <div class="col-lg-4 wow fadeInLeft delay-05s"> -->
-                <div class="featured-box">
-                        <img class="benefit-img" src="img/appreciate.svg">
-                        <h3>Property Appreciation</h3>
-                        <br>
-                        <p>Receieve capital gains in the form of property appreciation and growth</p>
+                        <p>Earn quarterly rental income on your properties</p>
                 </div>
             </div>
             <div class="col-lg-8 wow fadeInUp delay-05s">
@@ -215,13 +199,15 @@
                       }
                     });
                 </script>
-            </div>
-
-            <!-- <figure class="col-lg-8 text-right wow fadeInUp delay-02s">
-                <img src="img/placeholder-graph.png" alt="">
-            </figure> -->
-        
-        
+            </div>  
+            <div class="col-lg-2 wow fadeInLeft delay-05s">
+                <div class="featured-box">
+                    <img class="benefit-img" src="img/appreciate.png">
+                    <h3>Property Appreciation</h3>
+                    <br>
+                    <p>Receieve capital gains in the form of property appreciation and growth</p>
+                </div>
+            </div>      
     </div>
 </section>
 <!-- Investor Benefits End -->
@@ -230,13 +216,13 @@
 <section class="main-section paddind alabaster" id="properties">
 	<div class="container">
     	<h2>Properties</h2>
-    	<h6>Brief description about the different types of properties.</h6>
       <div class="propertiesFilter">  
         <ul class="properties-nav wow fadeIn delay-02s">
         	<li><a href="#" data-filter="*" class="current" >All</a></li>
             <li><a href="#" data-filter=".land" >Land</a></li>
             <li><a href="#" data-filter=".residential" >Residentail</a></li>
-            <li><a href="#" data-filter=".commercial" >Commercial</a></li>
+            <li><a href="#" data-filter=".commercial" >Office</a></li>
+            <li><a href="#" data-filter=".industrial" >Industrial</a></li>
         </ul>
        </div> 
         
@@ -283,7 +269,7 @@
 		<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
     	<div class="row">
         	<div class="col-lg-12">
-            	<p class="testimonial-part-haead wow fadeInDown delay-05">eJenga has changed my life - I never knew investing could be this easy.</p>
+            	<p class="testimonial-part-haead wow fadeInDown delay-05 text-center">eJenga has changed my life - I never knew investing could be this easy.</p>
             </div>
         </div>
     	<ul class="testimonial wow fadeIn delay-05s">
@@ -302,12 +288,11 @@
 <section class="main-section team" id="team">
 	<div class="container">
         <h2>Team</h2>
-        <h6>Take a closer look into our amazing team. We won’t bite.</h6>
         <div class="team-leader-block clearfix">
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-03s"> 
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic1.jpg" alt="">
+                    <img src="img/ns.jpeg" alt="">
                     <ul>
                         <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-facebook"></a></li>
@@ -316,13 +301,16 @@
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-03s">Navraj Singh</h3>
-                <span class="wow fadeInDown delay-03s">Title</span>
-                <p class="wow fadeInDown delay-03s">Description</p>
+               <!--  <span class="wow fadeInDown delay-03s">Title</span> -->
+                <br />
+                <div class="wow fadeInDown delay-09s">
+                    MEng Civil Engineering Graduate of Imperial College London from Nairobi. Currently works in London for a leading global investment bank within real estate
+                </div>
             </div>
             <div class="team-leader-box">
                 <div class="team-leader  wow fadeInDown delay-06s"> 
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic2.jpg" alt="">
+                    <img src="img/mp.jpg" alt="">
                     <ul>
                         <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-facebook"></a></li>
@@ -331,8 +319,11 @@
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-06s">Mayuresh Patel</h3>
-                <span class="wow fadeInDown delay-06s">Title</span>
-                <p class="wow fadeInDown delay-06s">Description</p>
+                <!-- <span class="wow fadeInDown delay-06s">Title</span> -->
+                <br />
+                <div class="wow fadeInDown delay-09s">
+                    MEng Chemical Engineering Graduate from Imperial College London from Mombasa. Currently works in Aberdeen for a world leading independent Oil and Gas Company supporting offshore and onshore production facilities
+                </div>
             </div>
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-09s"> 
@@ -346,8 +337,12 @@
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-09s">Aditya Sakhuja</h3>
-                <span class="wow fadeInDown delay-09s">Title</span>
-                <p class="wow fadeInDown delay-09s">Description</p>
+                <!-- <span class="wow fadeInDown delay-09s">Title</span> -->
+                <br />
+                <div class="wow fadeInDown delay-09s">
+                    A true tech-fanatic and entrepreneur at heart, Aditya receieved his Bachelors and Masters degree in Electronic and Information Engineering from Imperial College London. Recently founded an innovative bar automation startup in London    
+                </div>
+                
             </div>
         </div>
     </div>

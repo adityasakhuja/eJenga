@@ -374,6 +374,7 @@ color: #fff;
 }
 .featured-box p{
 	line-height:22px;
+	text-align: left;
 }
 .featured-work p.padding-b{
 	padding-bottom:35px;
@@ -859,6 +860,10 @@ border: 2px solid #fff;
 .input-btn:hover{
 	background: #2e2e2e;
 	color: #fff;
+}
+
+.subscribe {
+	width: 40%;
 }
 
 .validation {
