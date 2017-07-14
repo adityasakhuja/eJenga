@@ -21,6 +21,7 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/properties.css" rel="stylesheet" type="text/css">
 
 <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
 
@@ -44,13 +45,13 @@
 <nav class="main-nav-outer" id="test">
 	<div class="container">
         <ul class="main-nav">
-            <li><a href="#"><img class="slogo" src="img/logo-hor-w-nb.png" alt="eJenga"></a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#invest">How It Works</a></li>
             <li><a href="#benefit">Benefits</a></li>
+            <li><a href="#"><img class="slogo" src="img/logo2.png" alt="eJenga"></a></li>
             <li><a href="#properties">Properties</a></li>
             <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -103,7 +104,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 wow fadeInLeft">
-                <h6 class="animated fadeInUp delay-07s">The eJenga Way</h6>
+                <h6 class="animated fadeInUp delay-07s text-center">The eJenga Way</h6>
                 <ul class="animated fadeInUp delay-07s">
                     <li>Investors can now own part of a property without huge financial and timely commitments</li>
                     <li>Undertake all transactions online, including digital legal documentation, funds transfer &amp; ownership recordation</li>
@@ -111,7 +112,7 @@
                 </ul>
             </div>
              <div class="col-lg-6 wow fadeInRight">
-                <h6 class="animated fadeInUp delay-09s">The eJenga Vision</h6>
+                <h6 class="animated fadeInUp delay-09s text-center">The eJenga Vision</h6>
             <ul class="animated fadeInUp delay-09s">
                 <li>
                     e-Jenga hopes to act as an intermediary to facilitate funding in both directions between the investors and the property developers
@@ -186,15 +187,19 @@
                     var myChart = new Chart(ctx, {
                       type: 'line',
                       data: {
-                        labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016'],
+                        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017'],
                         datasets: [{
                           label: 'NSE',
-                          data: [0,1,2,3,4,5,6,7,8,9,10,10],
-                          backgroundColor: "#7cc576"
+                          data: [18,-16,19,26,12,-2,-2,18],
+                          borderColor: "#7cc576"
                         }, {
-                          label: 'Real Estate',
-                          data: [2,3,4,5,6,7,8,9,10,11,12,13],
-                          backgroundColor: "#ce4747"
+                          label: 'Kenyan Real Estate',
+                          data: [6,7,13,14,15,18,9,8],
+                          borderColor: "#ce4747"
+                        }, {
+                            label: 'Fixed Deposit',
+                            data: [4,3,15,9,5,5,9,7],
+                            borderColor: "#2e2e2e"
                         }]
                       }
                     });
@@ -216,27 +221,89 @@
 <section class="main-section paddind alabaster" id="properties">
 	<div class="container">
     	<h2>Properties</h2>
-      <div class="propertiesFilter">  
+      <!-- <div class="propertiesFilter">  
         <ul class="properties-nav wow fadeIn delay-02s">
         	<li><a href="#" data-filter="*" class="current" >All</a></li>
             <li><a href="#" data-filter=".land" >Land</a></li>
-            <li><a href="#" data-filter=".residential" >Residentail</a></li>
+            <li><a href="#" data-filter=".residential" >Residential</a></li>
             <li><a href="#" data-filter=".commercial" >Office</a></li>
             <li><a href="#" data-filter=".industrial" >Industrial</a></li>
         </ul>
-       </div> 
+       </div>  -->
         
 	</div>
     <div class="propertiesContainer wow fadeInUp delay-04s">
-            	<div class=" properties-box commercial">
-                	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
-                	<h3>Commercial Property 1</h3>
-                    <p>Commercial Property</p>
+                <div class="grid">
+                    
+                    <a href="property-sample.html">
+                        <figure class="effect-julia">
+                        <div class="properties-box residential">
+                            <img src="img/res1.jpg" alt="Residential Property 1"/>
+                            <figcaption>
+                                <h2>Stabilised <span>Multifamily</span></h2>
+                                <div>
+                                    <p>Shelly Beach Road, Likoni, Mombasa</p>
+                                    <p>Rating: Lion</p>
+                                    <p>Value: $500,000</p>
+                                    <p>Share Price: $0.5</p>
+                                    <p>Dividend Yield: 8%</p>
+                                    <p>Structure: Preferred Equity</p>
+                                    <p>No of Investors: 50</p>
+                                </div>
+                            </figcaption>           
+                        </div>
+                        </figure>
+                    </a>
+                    
+                    <figure class="effect-julia">
+                    <div class="properties-box land">
+                        <img src="img/land1.jpg" alt="Land Property 1"/>
+                        <figcaption>
+                            <h2>Land</h2>
+                            <div>
+                                <p>Kipeto, Kajiado County – 4 Acres</p>
+                                <p>Rating: Buffalo</p>
+                                <p>Value: $40,000</p>
+                                <p>Share Price: $0.04</p>
+                                <p>Dividend Yield: 0</p>
+                                <p>Structure: Preferred Equity</p>
+                                <p>No of Investors: 10</p>
+                            </div>
+                        </figcaption>           
+                    </div>
+                    </figure>
+
+                    <figure class="effect-julia">
+                    <div class="properties-box industrial">
+                        <img src="img/ind1.jpg" alt="Industrial Property 1"/>
+                        <figcaption>
+                            <h2>Industrial</h2>
+                            <div>
+                                <p>Pate Road, Industrial Area, Nairobi</p>
+                                <p>Rating: Elephant</p>
+                                <p>Value: $1,000,000</p>
+                                <p>Share Price: $1</p>
+                                <p>Dividend Yield: 12%</p>
+                                <p>Structure: Preferred Equity</p>
+                                <p>No of Investors: 100</p>
+                            </div>
+                        </figcaption>           
+                    </div>
+                    </figure>
+
                 </div>
-                <div class="properties-box residential">
+
+                <!-- <div class="properties-box residential">
                 	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>	
-                	<h3>Residential Property 1</h3>
-                    <p>Residential Property</p>
+                	<h3>Stabalised Multifamily</h3>
+                    <p>Income</p>
+                    <p>Shelly Beach Road, Likoni, Mombasa</p>
+                    <p>Rating: Lion</p>
+                    <p>Value: $500,000</p>
+                    <p>Structure: Preferred Equity</p>
+                    <p>No of Investors: 50</p>
+                    <p>Current Share Price: $0.5</p>
+                    <p>Dividend Yield: 8%</p>
                 </div>
                 <div class=" properties-box land">
                 	<a href="#"><img src="img/Portfolio-pic3.jpg" alt=""></a>	
@@ -257,7 +324,7 @@
                 	<a href="#"><img src="img/Portfolio-pic6.jpg" alt=""></a>	
                 	<h3>Residential Property 2</h3>
                     <p>Residential Property</p>
-                </div>
+                </div> -->
     </div>
 </section>
 <!-- Properties End -->
@@ -353,7 +420,7 @@
 <!-- Business Start -->
 <section class="business-talking">
 	<div class="container">
-        <h2>Let’s Talk Business.</h2>
+        <h2>Contact Us</h2>
     </div>
 </section>
 <!-- Business End -->
@@ -422,7 +489,7 @@
 <!-- Footer Start -->
 <footer class="footer">
     <div class="container">
-        <div class="footer-logo"><a href="#"><img src="img/small-logo.png" alt=""></a></div>
+        <div class="footer-logo"><a href="#"><img src="img/logo2.png" alt=""></a></div>
         <span class="copyright">&copy; eJenga 2017. All Rights Reserved.</span>
         <!-- <span class="copyright">Made with <i class="fa fa-heart" style="color: #ce4747;"></i> by Aditya Sakhuja.</span> -->
         

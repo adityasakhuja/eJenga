@@ -52,7 +52,7 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
-	background: #fff;
+	background: #2e2e2e;
 	font-family: 'Catamaran', sans-serif;
 	font-size:14px;
 	font-weight:normal;
@@ -200,14 +200,14 @@ color: #fff;
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
-	border-bottom:1px solid #2e2e2e;
-	box-shadow:0 4px 5px -3px #2e2e2e;
+	/*border-bottom:1px solid #2e2e2e;
+	box-shadow:0 4px 5px -3px #2e2e2e;*/
 	position:relative;
 	/*background:rgba(50,50,50,0.7);*/
-	background: #2e2e2e;
+	background: rgba(46,46,46,0.8);
 }
 .main-nav{
-	text-align:right;
+	text-align:center;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
@@ -318,6 +318,10 @@ color: #fff;
 
 /* About
 ---------------------------------*/
+#about {
+	background: #fff;
+}
+
 #about ul li {
 	font-family: 'Helvetica', sans-serif;
 	line-height:36px;
@@ -330,6 +334,9 @@ color: #fff;
 
 /* Benefits
 ---------------------------------*/
+#benefit {
+	background: #fff;
+}
 
 .benefit-list{
 	padding:0 0 0 0;
@@ -618,6 +625,10 @@ border: 2px solid #fff;
 
 /* Team
 ---------------------------------*/
+#team {
+	background: #fff;
+}
+
 .team-leader-block{
 	max-width:993px;
 	margin:0 auto;
@@ -735,6 +746,7 @@ border: 2px solid #fff;
 
 /* Contact
 ---------------------------------*/
+
 .main-section.contact{
 	padding:90px 0 100px;
 }
@@ -758,7 +770,7 @@ border: 2px solid #fff;
 .contact-info-box h3 i{
 	font-style:normal;
 	font-size:18px;
-	color:#222222;
+	color:#fff;
 	font-family: 'FontAwesome';
 	font-weight:normal;
 	margin-right:7px;
@@ -897,6 +909,43 @@ border: 2px solid #fff;
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
+
+/* Property Page
+---------------------------------*/
+#property {
+	background: #fff;
+}
+
+.property-info {
+	/*box-shadow:0 4px 5px 3px #ddd;*/
+	border: solid 0.5px #ddd;
+	border-radius: 1px;	
+	width: 100%;
+	height: 370px;
+	padding: 10px;
+	text-align: center;
+}
+
+.property-info h2 {
+	text-align: left;
+}
+
+#property h2 {
+	font-size: 22px;
+}
+
+img.ratings {
+	width: 50px;
+}
+
+img#risk {
+	width: 100px;
+}
+
+.property-info .headline h2 {
+	text-align: center;
+}
+
 
 /* Footer
 ---------------------------------*/
